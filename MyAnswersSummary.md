@@ -31,7 +31,7 @@ https://www.baeldung.com/java-optional
 3. Corrected the test by modifying aresame to show optional value of false.
 4. None.
 
-## Question Format on Take String Apart
+## Question Format on Take String Apart (Answers 5-7 in the next 2 section)
 1. What if the input arguments is out of range of the string?
 2. What will happen if the the starting index is greater than the ending index?
 3. What will happen if the input string is of null reference?
@@ -39,12 +39,12 @@ https://www.baeldung.com/java-optional
 
 #### should_taken_string_apart
 1. This is for me to learn manipulating the given string inputs in Java.
-https://beginnersbook.com/2013/12/java-string-substring-method-example/
+https://www.geeksforgeeks.org/split-string-java-examples/
 2. Test failed first because the part of the string is null
-3. Corrected the test by modifying partOfString variable to get particular part of the string in original string variable.
+3. Corrected the test by modifying partOfString variable by using a split method.
 4. None.
 
-1.
+1. It will cause a fail in the test
 2. It will result to Index Out of Bound Exception
 3. It will result to Null Pointer exception
 
@@ -52,12 +52,12 @@ https://beginnersbook.com/2013/12/java-string-substring-method-example/
 
 #### should_taken_string_apart_continued
 1. This is for me to learn manipulating the given string inputs in Java.
-https://beginnersbook.com/2013/12/java-string-substring-method-example/
+https://www.geeksforgeeks.org/split-string-java-examples/
 2. Test failed first because the part of the string is null
-3. Corrected the test by modifying partOfString variable to get particular part of the string in original string variable.
+3. Corrected the test by modifying partOfString variable by using a split method.
 4. None.
 
-1.
+1. It will cause a fail in the test
 2. It will result to Index Out of Bound Exception
 3. It will result to Null Pointer exception
 
