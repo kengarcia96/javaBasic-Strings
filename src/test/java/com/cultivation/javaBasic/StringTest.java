@@ -105,10 +105,7 @@ class StringTest {
 
         // TODO: Extract words in the sentence.
         // <--Start
-        String[] words = new String[3];
-        words[0] = sentence.substring(0,4);
-        words[1] = sentence.substring(5,7);
-        words[2] = sentence.substring(8,12);
+        String[] words = sentence.split(" ");
         // --End-->
 
         assertArrayEquals(new String[] {"This", "is", "Mike"}, words);
@@ -121,10 +118,7 @@ class StringTest {
 
         // TODO: Extract words in the sentence.
         // <--Start
-        String[] words = new String[3];
-        words[0] = sentence.substring(0,4);
-        words[1] = sentence.substring(5,7);
-        words[2] = sentence.substring(8,12);
+        String[] words = sentence.split("/");
         // --End-->
 
         assertArrayEquals(new String[] {"This", "is", "Mike"}, words);
